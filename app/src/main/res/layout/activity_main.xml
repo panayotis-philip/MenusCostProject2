@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rest"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/menu_s_cost"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Welcome!"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txtInfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Login" />
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginTop="15dp"
+        android:text="Register"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/cheat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="cheat"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        />
+
+
+</RelativeLayout>

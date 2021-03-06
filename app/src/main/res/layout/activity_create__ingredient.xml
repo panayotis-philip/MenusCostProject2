@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rest"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/logo2" />
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/imgLogo"
+        android:layout_alignBottom="@+id/imgLogo"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="25dp"
+        android:layout_toStartOf="@+id/imgLogo"
+        android:src="@drawable/back2" />
+
+    <ImageView
+        android:id="@+id/ImgHomePage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/imgLogo"
+        android:layout_alignBottom="@+id/imgLogo"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/imgLogo"
+        android:src="@mipmap/ic_home" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/menu_s_cost"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Fill in below the characteristics of your ingredient"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtIname"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/txtInfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:hint="Enter the ingredient's name"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/edtIcateg"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/edtIname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:hint="Enter the ingredient's category"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/edtIprice"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/edtIcateg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:hint="Ingredient's price/g"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/edtIqual"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/edtIprice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:hint="Ingredient's quality(0-10)"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/edtIsup"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/edtIqual"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:hint="Supermarket's Name"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:id="@+id/btnAddIngr"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/edtIsup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Add the ingredient" />
+
+
+</RelativeLayout>

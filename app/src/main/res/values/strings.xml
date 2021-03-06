@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">menu\'s Cost 2</string>
+    <string name="menu_s_cost">Menu\'s Cost</string>
+    <string-array name="old_recipes">
+        <item>Recipe1</item>
+        <item>Recipe2</item>
+        <item>Recipe3</item>
+        <item>Recipe4</item>
+        <item>Recipe5</item>
+        <item>Recipe6</item>
+    </string-array>
+
+    <string-array name="existing_ingredients">
+        <item>ingredient1</item>
+        <item>ingredient2</item>
+        <item>ingredient3</item>
+        <item>ingredient4</item>
+        <item>ingredient5</item>
+        <item>ingredient6</item>
+    </string-array>
+</resources>

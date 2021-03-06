@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "283541128985",
+    "firebase_url": "https://menus-cost-2-default-rtdb.firebaseio.com",
+    "project_id": "menus-cost-2",
+    "storage_bucket": "menus-cost-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283541128985:android:76c417e1c2b1d05af22788",
+        "android_client_info": {
+          "package_name": "ntua.hci.menuscost2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283541128985-mn9659l3f7vf3ghbno5f1fu8cmlsi8ie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ntua.hci.menuscost2",
+            "certificate_hash": "db5160084f2321007f7b5bf5f5818884b7aa693d"
+          }
+        },
+        {
+          "client_id": "283541128985-vb9ui00p4mo8p0ielqmu97pa74kfarij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeJvM629tVGgNKFSkqPPLYAmek8HpOMKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283541128985-vb9ui00p4mo8p0ielqmu97pa74kfarij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
