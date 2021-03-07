@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ExpandableListView;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -19,6 +20,7 @@ public class OldRecipe extends AppCompatActivity {
 
     ImageView home;
     private Spinner recipes_spinner;
+    Button btnRecipeImg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +28,7 @@ public class OldRecipe extends AppCompatActivity {
         setContentView(R.layout.activity_old_recipe);
         home=findViewById(R.id.ImgHomePage);
         recipes_spinner=findViewById(R.id.recipe_spinner);
+        btnRecipeImg=findViewById(R.id.btnRecipeImg);
 
         recipes_spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -43,6 +46,14 @@ public class OldRecipe extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),HomePage.class));
+                finish();
+            }
+        });
+
+        btnRecipeImg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),RecipePhotos.class));
                 finish();
             }
         });

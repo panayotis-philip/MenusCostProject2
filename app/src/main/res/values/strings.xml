@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">menu\'s Cost 2</string>
     <string name="menu_s_cost">Menu\'s Cost</string>
+    <string name="see_the_photos">see the photos</string>
+    <string name="take_photo">take photo</string>
+    <string name="save">save</string>
+    <string name="upload">upload</string>
     <string-array name="old_recipes">
         <item>Recipe1</item>
         <item>Recipe2</item>
