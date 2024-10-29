@@ -15,7 +15,7 @@ public class Create_Ingredient extends AppCompatActivity {
     Button btnAddIngr;
     EditText edtIname, edtIcateg, edtIprice, edtIqual, edtIsup;
 
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
