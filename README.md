@@ -1,6 +1,6 @@
 # Android Project - Menu's Cost
 
-<img width="370" alt="Screenshot 2024-10-29 at 7 52 37 PM" src="https://github.com/user-attachments/assets/72664bcd-7c96-4f1a-a825-d41e81dca089">
+<img width="300" alt="Screenshot 2024-10-29 at 7 52 37 PM" src="https://github.com/user-attachments/assets/72664bcd-7c96-4f1a-a825-d41e81dca089">
 
 ### Developed an app to optimize ingredient purchasing for recipes.
 
